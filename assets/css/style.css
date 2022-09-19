@@ -1,0 +1,277 @@
+body, page{
+
+    font-family: "Raleway";
+    color: #636363;
+}
+
+video{
+    width: 100vw;
+}
+
+.right{
+    margin-left: 700px!important;
+    transition: all 2s;
+
+}
+
+
+.page0 {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+    opacity: 1;
+    transition: 1s;
+}
+
+.page1 ,.page2,.page3,.page4,.page5,.page6 ,.page7{
+    top: 0;
+    margin: 0 auto;
+    opacity: 1;
+    width: 100vw;
+    height: 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.page1{
+    background-color: #34efaee4;
+}
+.page2{
+    background-color: #b8668fbd;
+}
+
+.page3{
+    background-color: #2a2a2ae4;
+}
+.page4{
+    background-color: #B434EF;
+}
+.page5{
+    background-color: #DCDFDE;
+}
+.page6{
+    background-color: #3446EE;
+}
+.page7{
+    background-color: #EF3340;
+}
+
+
+.text-page0, .btns-page0{
+    min-width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-left: 30px;
+
+
+
+}
+
+
+
+.opacity{
+    opacity: 0!important;
+
+}
+
+.close{
+    opacity: 0!important;
+    width: 0vw!important;
+    height: 0px!important;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.displayNone{
+    display: none;
+}
+
+
+
+.text-page0 p{
+    opacity: 1;
+    max-width: 450px;
+    font-size: 25px;
+}
+
+.text-page0 h1{
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+
+.btns-page0 {
+    grid-auto-flow: column;
+    overflow: hidden;
+    max-height: 60px;
+    padding: 10px;
+    max-width: 600px;
+    justify-content: left;
+    padding-left: 30px;
+}
+
+.btns-page0 button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    box-shadow: -4px 5px 10px rgba(0, 0, 0, 0.048);
+
+
+    transition:all 1.6s;
+
+}
+
+.btns-page0 button:hover{
+    width: 55px;
+    height: 55px;
+}
+
+.irish{
+    background-color: #34EFAE;
+    transition: 1s;
+}
+
+.rafa{
+    background-color: #b8668f;
+    transition: 1s;
+}
+.iwash{
+    background-color: #b434ef;
+    transition: 1s;
+
+}
+.prev{
+    background-color: #ef3441;
+    transition: 1s;
+
+}
+.aprova{
+    background-color: #dcdfde;
+    transition: 1s;
+
+}
+.unus{
+    background-color: #3447ef;
+    transition: 1s;
+
+}.star{
+    background-color: #414141;
+    transition: 1s;
+
+}
+
+
+
+.container, .container-portifolio {
+    opacity: 1;
+    transition: 1s;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container img{
+    max-width: 100%;
+
+}
+
+.title-portfolio{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 400px;
+    margin-top: 100px;
+}
+
+.banner{
+    max-width: 100%;
+}
+
+.banner-app{
+    margin-top: -130px;
+    max-width: 1300px;
+}
+
+.background{
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.closePage{
+    color: #fff;
+    border: 2px solid #fff;
+    background:none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    float:right;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.tablet{
+    width: 100vw;
+    margin-top: 1000px;
+    transition: 2s;
+    border-radius: 30px;
+}
+
+.tablet1{
+    margin-top: 0px;
+}
+
+.gray{
+    background-color: rgba(255, 255, 255, 0.453);
+    margin-top: 100px;
+    transition: 2s;
+}
+
+.orange{
+    background-color: #FC5F46;
+}
+
+.pink{
+    background-color: #BF7249;
+}.blue{
+    background-color: #0FAAE2;
+}.gray1{
+    background-color: #707070;
+}.green{
+    background-color: #00E299;
+}.orange{
+    background-color: #FC5F46;
+}.orange{
+    background-color: #FC5F46;
+}
+
+.components{
+    justify-self: center;
+    border-radius: 40px;
+    margin-bottom: 200px;
+    max-width:90vw;
+
+        margin-top: 100px!important;
+
+}
+
+.ui-kit{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 200px;
+}
+
+.top-margin{
+    margin-top: -340px!important;
+}
